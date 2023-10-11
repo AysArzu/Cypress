@@ -1,0 +1,3 @@
+Cypress Notes
+1)Cypress install
+2)Plugins
