@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_day02": "npx cypress run --spec 'cypress/e2e/day02/' --browser chrome",
+    "mycode": "npx cypress run --spec 'cypress/e2e/day02/' --browser chrome -headed",
+    "testdashBoard": "npx cypress run --record --key e502c3b4-ee0b-4259-8592-8dc7e8891a5d",
+    "dashBoard_day02": "npx cypress run --spec 'cypress/e2e/day_02/' --record --key e502c3b4-ee0b-4259-8592-8dc7e8891a5d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+
+
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@faker-js/faker": "^8.1.0"
+  }
+}
