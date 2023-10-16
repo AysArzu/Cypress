@@ -57,6 +57,11 @@ Oluşturduğumuz bu komutu terminalde şu şekilde çalıştıracağız.
 TERMINALDE: npm run mycode
  "test-dashboard":"npx cypress run --record --key e502c3b4-ee0b-4259-8592-8dc7e8891a5d"
  npm run test_dashboard => butun testlerim calisip dashboarda gonderilecek
+ BIRDEN FAZLA BROWSERDA TESTLERI CALISTIRMAK ICIN
+ 1) 2 tane terminal aciyoruz
+ 2)1. terminale npx cypress run --spec 'cypress/e2e/day02/' --browser chrome -headed
+ 3)2. terminale npx npx cypress run --spec 'cypress/e2e/day02/' --browser chrome -headed
+ 2 terminalde de enter'a basiyoruz
 
 
 

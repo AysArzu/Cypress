@@ -1,18 +1,16 @@
 /// <reference types="cypress" />
 
-describe('',()=>{
- it('',()=>{
+describe('',() => {
+ 
+    it('',() => {
 
 
 
- })
+    })
 
- it.skip('',()=>{
+    it.skip('',() => {
 
 
     
- })
-
-
-
+    })
 })
